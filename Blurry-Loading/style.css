@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu' , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background: url('https://cdn.realsport101.com/images/ncavvykf/epicstream/386d76be416c236158de660b00bf43ae364eb37a-1972x1310.png?rect=0,100,1972,1110&w=700&h=394&dpr=2')no-repeat center center/cover;
+    position:absolute;
+    top: -30px;
+    left: -30px;
+    width:calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
